@@ -35,6 +35,7 @@ requirements:
 
 tests:
   - package_contents:
+      strict: true
       bin:
         - mdt${{ '.exe' if win else '' }}
 
