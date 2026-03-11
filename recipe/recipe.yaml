@@ -1,6 +1,6 @@
 context:
   name: md-tui
-  version: "0.9.4"
+  version: "0.9.5"
 
 package:
   name: ${{ name|lower }}
@@ -8,11 +8,10 @@ package:
 
 source:
   url: https://github.com/henriklovhaug/${{ name }}/archive/v${{ version }}.tar.gz
-  sha256: d376afcda8b7b9eef44081153c63e6b827aca4c91ffe548c5b1463f70971e0fe
+  sha256: 25b5768d3dc9f0e229b433dc7c7a20c1b491f9ad3fb8eccb59481495b159d079
 
 build:
   number: 0
-  skip: win
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
