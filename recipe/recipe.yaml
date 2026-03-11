@@ -12,7 +12,6 @@ source:
 
 build:
   number: 0
-  skip: win
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
