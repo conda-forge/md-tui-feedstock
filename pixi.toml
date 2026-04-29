@@ -5,7 +5,7 @@
 
 [workspace]
 name = "md-tui-feedstock"
-version = "3.56.2"  # conda-smithy version used to generate this file
+version = "3.61.2"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/md-tui-feedstock"
 authors = ["@conda-forge/md-tui"]
 channels = ["conda-forge"]
