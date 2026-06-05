@@ -1,6 +1,6 @@
 context:
   name: md-tui
-  version: "0.10.0"
+  version: "0.10.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/henriklovhaug/${{ name }}/archive/v${{ version }}.tar.gz
-  sha256: d03f2273117790f865d9c822176ddb9b7132071783761bebfa6eeaa639a3590a
+  sha256: 24ebda2ed5bf630068f4a8a8fb07eb0c7f3ce0303a27cd311684fbcddc7d4499
 
 build:
   number: 0
